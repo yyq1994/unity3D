@@ -7,8 +7,8 @@ public class green : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //ÆğÊ¼ÑÕÉ«
-        //»ñµÃäÖÈ¾×é¼ş£¬²ÄÁÏ£¬ÑÕÉ«£¬ÉèÖÃÎªÂÌÉ«
+        //èµ·å§‹é¢œè‰²
+        //è·å¾—æ¸²æŸ“ç»„ä»¶ï¼Œææ–™ï¼Œé¢œè‰²ï¼Œè®¾ç½®ä¸ºç»¿è‰²
         GetComponent<Renderer>().material.color = Color.green;
         
     }
@@ -16,28 +16,28 @@ public class green : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //¸üĞÂÑÕÉ«
-        //Èç¹û°´ÏÂ¼ü1£¬ÑÕÉ«±äÎªºìÉ«
+        //æ›´æ–°é¢œè‰²
+        //å¦‚æœæŒ‰ä¸‹é”®1ï¼Œé¢œè‰²å˜ä¸ºçº¢è‰²
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             GetComponent<Renderer>().material.color = Color.red;
         }
-        //Èç¹û°´×¡¼ü1²¢ÇÒ°´ÏÂY¼ü£¬ÑÕÉ«±äÎª»ÆÉ«
+        //å¦‚æœæŒ‰ä½é”®1å¹¶ä¸”æŒ‰ä¸‹Yé”®ï¼Œé¢œè‰²å˜ä¸ºé»„è‰²
         if (Input.GetKey(KeyCode.Alpha1)&&Input.GetKeyDown(KeyCode.Y))
         {
             GetComponent<Renderer>().material.color = Color.yellow;
         }
-        //Èç¹û°´×¡¼ü1²¢ÇÒ°´ÏÂB¼ü£¬ÑÕÉ«±äÎªÀ¶É«
+        //å¦‚æœæŒ‰ä½é”®1å¹¶ä¸”æŒ‰ä¸‹Bé”®ï¼Œé¢œè‰²å˜ä¸ºè“è‰²
         if (Input.GetKey(KeyCode.Alpha1) && Input.GetKeyDown(KeyCode.B))
         {
             GetComponent<Renderer>().material.color = Color.blue;
         }
-        //Èç¹û°´×¡¼ü1²¢ÇÒ°´ÏÂG¼ü£¬ÑÕÉ«±äÎª»ÒÉ«
+        //å¦‚æœæŒ‰ä½é”®1å¹¶ä¸”æŒ‰ä¸‹Gé”®ï¼Œé¢œè‰²å˜ä¸ºç°è‰²
         if (Input.GetKey(KeyCode.Alpha1) && Input.GetKeyDown(KeyCode.G))
         {
             GetComponent<Renderer>().material.color = Color.gray;
         }
-        //Èç¹û°´×¡¼ü1²¢ÇÒ°´ÏÂG¼ü£¬ÑÕÉ«±äÎª»ÒÉ«
+        //å¦‚æœæŒ‰ä½é”®1å¹¶ä¸”æŒ‰ä¸‹Gé”®ï¼Œé¢œè‰²å˜ä¸ºç°è‰²
         if (Input.GetKey(KeyCode.Alpha1) && Input.GetKeyDown(KeyCode.Alpha0))
         {
             GetComponent<Renderer>().material.color = Color.green;
